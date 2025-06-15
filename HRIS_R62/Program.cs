@@ -11,6 +11,16 @@ namespace HRIS_R62
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            // Add CORS
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowLocalhost4200", builder =>
+                {
+                    builder.WithOrigins("http://localhost:4200")
+                           .AllowAnyHeader()
+                           .AllowAnyMethod();
+                });
+            });
 
             builder.Services.AddControllers();
 
@@ -34,6 +44,8 @@ namespace HRIS_R62
             builder.Services.AddScoped<INightAllowanceRepository, NightAllowanceRepository>();
 
             var app = builder.Build();
+
+            app.UseCors("AllowLocalhost4200");
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())

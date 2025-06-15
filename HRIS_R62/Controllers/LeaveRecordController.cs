@@ -30,11 +30,11 @@ namespace HRIS_R62.Controllers
             return Ok(result);
         }
 
-        [HttpPost]
+        [HttpPost("Create")]
         public async Task<IActionResult> Create([FromBody] LeaveRecord entity)
         {
             var result = await _context.Database.ExecuteSqlRawAsync("EXEC sp_InsertLeaveRecords @p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12", entity.LeaveRecordID, entity.LeaveYear, entity.LeaveDate, entity.LeaveTime, entity.EntryDate, entity.Reason, entity.DeliveryDate, entity.LeaveType, entity.TotalLeave, entity.LeaveEnjoyed, entity.ApprovedDate, entity.EntryUser, entity.EmployeeID);
-            return Ok("Data Inserted Successfully!!");
+            return Ok(result);
         }
 
         //public async Task<IActionResult> Create([FromBody]LeaveRecord entity)
@@ -60,7 +60,7 @@ namespace HRIS_R62.Controllers
         //    return Ok(entity);
         //}
 
-        [HttpPut("{id}")]
+        [HttpPut("Update/{id}")]
         public async Task<IActionResult> Update(string id, [FromBody] LeaveRecord entity)
         {
             if (entity == null || id != entity.LeaveRecordID)
@@ -93,7 +93,7 @@ namespace HRIS_R62.Controllers
             _context.LeaveRecords.Update(existingRecord);
             await _context.SaveChangesAsync();
 
-            return Ok("Updated Successfully");
+            return Ok(existingRecord);
         }
 
     }

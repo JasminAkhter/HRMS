@@ -31,22 +31,15 @@ namespace HRIS_R62.Controllers
         }
 
 
-        [HttpPost]
-        //public async Task<IActionResult> Create([FromBody] LeaveApproval entity)
-        //{
-        //    var result = await _context.Database.ExecuteSqlAsync(
-        //       "EXEC sp_InsertLeaveApprovals @p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13" entity.LeaveApprovalID, entity.LeaveName, entity.LeaveFromDate, entity.LeaveToDate, entity.Remarks, entity.LocalAreaClerance, entity.LocalAreaRemarks, entity.ApprovedDate, entity.EntryUser, entity.LeaveEnjoyed, entity.TotalLeave, entity.LeaveYear, entity.ProvidedLeave, entity.EmployeeID
-        //        );
-        //    return Ok("Data Inserted Successfully!!");
-        //}
+        [HttpPost("Create")]
         public async Task<IActionResult> Create([FromBody] LeaveApproval entity)
         {
-            await _context.Database.ExecuteSqlRawAsync(
+            var result = await _context.Database.ExecuteSqlRawAsync(
                 "EXEC sp_InsertLeaveApprovals @p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13",
                 entity.LeaveApprovalID, entity.LeaveName, entity.LeaveFromDate, entity.LeaveToDate, entity.Remarks, entity.LocalAreaClerance, entity.LocalAreaRemarks, entity.ApprovedDate, entity.EntryUser, entity.LeaveEnjoyed, entity.TotalLeave, entity.LeaveYear, entity.ProvidedLeave, entity.EmployeeID
             );
 
-            return Ok("Data Inserted Successfully!!");
+            return Ok(result);
         }
 
 

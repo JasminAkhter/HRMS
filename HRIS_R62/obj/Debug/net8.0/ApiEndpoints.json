@@ -1772,22 +1772,6 @@
   },
   {
     "ContainingType": "HRIS_R62.Controllers.LeaveApprovalController",
-    "Method": "Create",
-    "RelativePath": "api/LeaveApproval",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "entity",
-        "Type": "HRIS_R62.Models.LeaveApproval",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HRIS_R62.Controllers.LeaveApprovalController",
     "Method": "GetById",
     "RelativePath": "api/LeaveApproval/{id}",
     "HttpMethod": "GET",
@@ -1815,6 +1799,22 @@
         "Type": "System.String",
         "IsRequired": true
       },
+      {
+        "Name": "entity",
+        "Type": "HRIS_R62.Models.LeaveApproval",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRIS_R62.Controllers.LeaveApprovalController",
+    "Method": "Create",
+    "RelativePath": "api/LeaveApproval/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
         "Name": "entity",
         "Type": "HRIS_R62.Models.LeaveApproval",
@@ -1835,22 +1835,6 @@
   },
   {
     "ContainingType": "HRIS_R62.Controllers.LeaveEncashmentController",
-    "Method": "Create",
-    "RelativePath": "api/LeaveEncashment",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "entity",
-        "Type": "HRIS_R62.Models.LeaveEncashment",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HRIS_R62.Controllers.LeaveEncashmentController",
     "Method": "GetById",
     "RelativePath": "api/LeaveEncashment/{id}",
     "HttpMethod": "GET",
@@ -1887,6 +1871,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "HRIS_R62.Controllers.LeaveEncashmentController",
+    "Method": "Create",
+    "RelativePath": "api/LeaveEncashment/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "HRIS_R62.Models.LeaveEncashment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HRIS_R62.Controllers.LeaveRecordController",
     "Method": "GetAll",
     "RelativePath": "api/LeaveRecord",
@@ -1894,22 +1894,6 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HRIS_R62.Controllers.LeaveRecordController",
-    "Method": "Create",
-    "RelativePath": "api/LeaveRecord",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "entity",
-        "Type": "HRIS_R62.Models.LeaveRecord",
-        "IsRequired": true
-      }
-    ],
     "ReturnTypes": []
   },
   {
@@ -1930,8 +1914,24 @@
   },
   {
     "ContainingType": "HRIS_R62.Controllers.LeaveRecordController",
+    "Method": "Create",
+    "RelativePath": "api/LeaveRecord/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "HRIS_R62.Models.LeaveRecord",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRIS_R62.Controllers.LeaveRecordController",
     "Method": "Update",
-    "RelativePath": "api/LeaveRecord/{id}",
+    "RelativePath": "api/LeaveRecord/Update/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -2323,22 +2323,6 @@
   },
   {
     "ContainingType": "HRIS_R62.Controllers.MaternityController",
-    "Method": "Create",
-    "RelativePath": "api/Maternity",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "entity",
-        "Type": "HRIS_R62.Models.MaternityBill",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HRIS_R62.Controllers.MaternityController",
     "Method": "GetById",
     "RelativePath": "api/Maternity/{id}",
     "HttpMethod": "GET",
@@ -2366,6 +2350,22 @@
         "Type": "System.String",
         "IsRequired": true
       },
+      {
+        "Name": "entity",
+        "Type": "HRIS_R62.Models.MaternityBill",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRIS_R62.Controllers.MaternityController",
+    "Method": "Create",
+    "RelativePath": "api/Maternity/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
         "Name": "entity",
         "Type": "HRIS_R62.Models.MaternityBill",
@@ -2386,22 +2386,6 @@
   },
   {
     "ContainingType": "HRIS_R62.Controllers.MaternityConfigController",
-    "Method": "Create",
-    "RelativePath": "api/MaternityConfig",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "entity",
-        "Type": "HRIS_R62.Models.MaternityConfiguration",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HRIS_R62.Controllers.MaternityConfigController",
     "Method": "GetById",
     "RelativePath": "api/MaternityConfig/{id}",
     "HttpMethod": "GET",
@@ -2429,6 +2413,22 @@
         "Type": "System.String",
         "IsRequired": true
       },
+      {
+        "Name": "entity",
+        "Type": "HRIS_R62.Models.MaternityConfiguration",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRIS_R62.Controllers.MaternityConfigController",
+    "Method": "Create",
+    "RelativePath": "api/MaternityConfig/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
         "Name": "entity",
         "Type": "HRIS_R62.Models.MaternityConfiguration",

@@ -34,7 +34,7 @@ namespace HRIS_R62.Controllers
 
 
         #region Create
-        [HttpPost]
+        [HttpPost("Create")]
         #region EF
         //public async Task<IActionResult> Create([FromBody] MaternityBill entity)
         //{
@@ -68,16 +68,15 @@ namespace HRIS_R62.Controllers
         //    return Ok(entity);
         //}
         #endregion
-        #region Procedure
+
         #region Procedure
         public async Task<IActionResult> Create([FromBody] MaternityBill entity)
         {
             var result = await _context.Database.ExecuteSqlRawAsync(
                    "EXEC sp_InsertMaternitybill @p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21", entity.MaternityBillID, entity.MaternityConfigurationID, entity.CurrentMonth, entity.FromMonth, entity.ToMonth, entity.NumberOfMonths, entity.BasicSalary, entity.WorkingDays, entity.ActualCurrentSalary, entity.EarnedLeaveDays, entity.EarnedLeaveAmount, entity.Computed3MonthNetPayable, entity.Computed3MonthWorkingDays, entity.ActualPay, entity.ComputedPay, entity.ActualNetPayable, entity.ComputedNetPayable, entity.LocalAreaClerance, entity.LocalAreaRemarks, entity.ApprovedDate, entity.EntryDate, entity.EmployeeID
                 );
-            return Ok("Data Inserted Successfully.");
+            return Ok(result);
         }
-        #endregion
         #endregion
 
         #endregion

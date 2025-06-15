@@ -1,18 +1,98 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\29_Merging_HRIS_R62\\",
+  "WorkspaceRootPath": "G:\\HRMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|g:\\29_merging_hris_r62\\hris_r62\\models\\leaveencashmentrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|solutionrelative:hris_r62\\models\\leaveencashmentrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|g:\\hrms\\hris_r62\\controllers\\maternitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|solutionrelative:hris_r62\\controllers\\maternitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|g:\\29_merging_hris_r62\\hris_r62\\models\\leaveencashment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|solutionrelative:hris_r62\\models\\leaveencashment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|g:\\hrms\\hris_r62\\controllers\\leaverecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|solutionrelative:hris_r62\\controllers\\leaverecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|g:\\29_merging_hris_r62\\hris_r62\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|solutionrelative:hris_r62\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|g:\\hrms\\hris_r62\\controllers\\leaveencashmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|solutionrelative:hris_r62\\controllers\\leaveencashmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|g:\\hrms\\hris_r62\\controllers\\leaveapprovalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|solutionrelative:hris_r62\\controllers\\leaveapprovalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|g:\\hrms\\hris_r62\\controllers\\maternityconfigcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|solutionrelative:hris_r62\\controllers\\maternityconfigcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|g:\\hrms\\hris_r62\\models\\maternityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|solutionrelative:hris_r62\\models\\maternityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|g:\\hrms\\hris_r62\\models\\leaverecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|solutionrelative:hris_r62\\models\\leaverecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|g:\\hrms\\hris_r62\\migrations\\data_seed.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|solutionrelative:hris_r62\\migrations\\data_seed.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|g:\\hrms\\hris_r62\\migrations\\data_seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|solutionrelative:hris_r62\\migrations\\data_seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|g:\\hrms\\hris_r62\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|solutionrelative:hris_r62\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|g:\\hrms\\hris_r62\\migrations\\20250603195346_sp_insertleaveencashment_encashmentrate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|solutionrelative:hris_r62\\migrations\\20250603195346_sp_insertleaveencashment_encashmentrate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|g:\\hrms\\hris_r62\\migrations\\20250603195346_sp_insertleaveencashment_encashmentrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|solutionrelative:hris_r62\\migrations\\20250603195346_sp_insertleaveencashment_encashmentrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|g:\\hrms\\hris_r62\\migrations\\20250603180420_sp_insertleaverecords.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|solutionrelative:hris_r62\\migrations\\20250603180420_sp_insertleaverecords.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|g:\\hrms\\hris_r62\\migrations\\20250603180420_sp_insertleaverecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|solutionrelative:hris_r62\\migrations\\20250603180420_sp_insertleaverecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|g:\\hrms\\hris_r62\\migrations\\20250603052415_sp_insertleaveapprovals.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|solutionrelative:hris_r62\\migrations\\20250603052415_sp_insertleaveapprovals.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|g:\\hrms\\hris_r62\\migrations\\20250603052415_sp_insertleaveapprovals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|solutionrelative:hris_r62\\migrations\\20250603052415_sp_insertleaveapprovals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|g:\\hrms\\hris_r62\\migrations\\20250603030927_sp_insertmaternityconfiguration.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|solutionrelative:hris_r62\\migrations\\20250603030927_sp_insertmaternityconfiguration.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|g:\\hrms\\hris_r62\\migrations\\20250603030927_sp_insertmaternityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|solutionrelative:hris_r62\\migrations\\20250603030927_sp_insertmaternityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|g:\\hrms\\hris_r62\\migrations\\20250602194310_sp_insertmaternitybill.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|solutionrelative:hris_r62\\migrations\\20250602194310_sp_insertmaternitybill.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|g:\\hrms\\hris_r62\\migrations\\20250602194310_sp_insertmaternitybill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|solutionrelative:hris_r62\\migrations\\20250602194310_sp_insertmaternitybill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|g:\\hrms\\hris_r62\\migrations\\20250527122148_scriptnkb.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|solutionrelative:hris_r62\\migrations\\20250527122148_scriptnkb.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|g:\\hrms\\hris_r62\\migrations\\20250527122148_scriptnkb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|solutionrelative:hris_r62\\migrations\\20250527122148_scriptnkb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|g:\\hrms\\hris_r62\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71375A33-D68B-46D0-AB7B-9B94532E1DC0}|HRIS_R62\\HRIS_R62.csproj|solutionrelative:hris_r62\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +102,284 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LeaveEncashment.cs",
-              "DocumentMoniker": "G:\\29_Merging_HRIS_R62\\HRIS_R62\\Models\\LeaveEncashment.cs",
-              "RelativeDocumentMoniker": "HRIS_R62\\Models\\LeaveEncashment.cs",
-              "ToolTip": "G:\\29_Merging_HRIS_R62\\HRIS_R62\\Models\\LeaveEncashment.cs",
-              "RelativeToolTip": "HRIS_R62\\Models\\LeaveEncashment.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAwwC4AAAA1AAAAAAAAAA==",
+              "Title": "LeaveRecordController.cs",
+              "DocumentMoniker": "G:\\HRMS\\HRIS_R62\\Controllers\\LeaveRecordController.cs",
+              "RelativeDocumentMoniker": "HRIS_R62\\Controllers\\LeaveRecordController.cs",
+              "ToolTip": "G:\\HRMS\\HRIS_R62\\Controllers\\LeaveRecordController.cs",
+              "RelativeToolTip": "HRIS_R62\\Controllers\\LeaveRecordController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwF8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T17:57:52.417Z"
+              "WhenOpened": "2025-06-05T06:55:12.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MaternityConfigController.cs",
+              "DocumentMoniker": "G:\\HRMS\\HRIS_R62\\Controllers\\MaternityConfigController.cs",
+              "RelativeDocumentMoniker": "HRIS_R62\\Controllers\\MaternityConfigController.cs",
+              "ToolTip": "G:\\HRMS\\HRIS_R62\\Controllers\\MaternityConfigController.cs",
+              "RelativeToolTip": "HRIS_R62\\Controllers\\MaternityConfigController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T06:55:47.078Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LeaveEncashmentRate.cs",
-              "DocumentMoniker": "G:\\29_Merging_HRIS_R62\\HRIS_R62\\Models\\LeaveEncashmentRate.cs",
-              "RelativeDocumentMoniker": "HRIS_R62\\Models\\LeaveEncashmentRate.cs",
-              "ToolTip": "G:\\29_Merging_HRIS_R62\\HRIS_R62\\Models\\LeaveEncashmentRate.cs",
-              "RelativeToolTip": "HRIS_R62\\Models\\LeaveEncashmentRate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Title": "MaternityController.cs",
+              "DocumentMoniker": "G:\\HRMS\\HRIS_R62\\Controllers\\MaternityController.cs",
+              "RelativeDocumentMoniker": "HRIS_R62\\Controllers\\MaternityController.cs",
+              "ToolTip": "G:\\HRMS\\HRIS_R62\\Controllers\\MaternityController.cs",
+              "RelativeToolTip": "HRIS_R62\\Controllers\\MaternityController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T17:55:19.914Z",
+              "WhenOpened": "2025-06-05T06:55:49.083Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "G:\\29_Merging_HRIS_R62\\HRIS_R62\\appsettings.json",
-              "RelativeDocumentMoniker": "HRIS_R62\\appsettings.json",
-              "ToolTip": "G:\\29_Merging_HRIS_R62\\HRIS_R62\\appsettings.json",
-              "RelativeToolTip": "HRIS_R62\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-04T17:44:47.594Z"
+              "Title": "LeaveEncashmentController.cs",
+              "DocumentMoniker": "G:\\HRMS\\HRIS_R62\\Controllers\\LeaveEncashmentController.cs",
+              "RelativeDocumentMoniker": "HRIS_R62\\Controllers\\LeaveEncashmentController.cs",
+              "ToolTip": "G:\\HRMS\\HRIS_R62\\Controllers\\LeaveEncashmentController.cs",
+              "RelativeToolTip": "HRIS_R62\\Controllers\\LeaveEncashmentController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAkwGcAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T06:55:14.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MaternityConfiguration.cs",
+              "DocumentMoniker": "G:\\HRMS\\HRIS_R62\\Models\\MaternityConfiguration.cs",
+              "RelativeDocumentMoniker": "HRIS_R62\\Models\\MaternityConfiguration.cs",
+              "ToolTip": "G:\\HRMS\\HRIS_R62\\Models\\MaternityConfiguration.cs",
+              "RelativeToolTip": "HRIS_R62\\Models\\MaternityConfiguration.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T14:52:28.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LeaveApprovalController.cs",
+              "DocumentMoniker": "G:\\HRMS\\HRIS_R62\\Controllers\\LeaveApprovalController.cs",
+              "RelativeDocumentMoniker": "HRIS_R62\\Controllers\\LeaveApprovalController.cs",
+              "ToolTip": "G:\\HRMS\\HRIS_R62\\Controllers\\LeaveApprovalController.cs",
+              "RelativeToolTip": "HRIS_R62\\Controllers\\LeaveApprovalController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T06:56:53.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Data_Seed.cs",
+              "DocumentMoniker": "G:\\HRMS\\HRIS_R62\\Migrations\\Data_Seed.cs",
+              "RelativeDocumentMoniker": "HRIS_R62\\Migrations\\Data_Seed.cs",
+              "ToolTip": "G:\\HRMS\\HRIS_R62\\Migrations\\Data_Seed.cs",
+              "RelativeToolTip": "HRIS_R62\\Migrations\\Data_Seed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T04:29:55.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Data_Seed.Designer.cs",
+              "DocumentMoniker": "G:\\HRMS\\HRIS_R62\\Migrations\\Data_Seed.Designer.cs",
+              "RelativeDocumentMoniker": "HRIS_R62\\Migrations\\Data_Seed.Designer.cs",
+              "ToolTip": "G:\\HRMS\\HRIS_R62\\Migrations\\Data_Seed.Designer.cs",
+              "RelativeToolTip": "HRIS_R62\\Migrations\\Data_Seed.Designer.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T04:29:56.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LeaveRecord.cs",
+              "DocumentMoniker": "G:\\HRMS\\HRIS_R62\\Models\\LeaveRecord.cs",
+              "RelativeDocumentMoniker": "HRIS_R62\\Models\\LeaveRecord.cs",
+              "ToolTip": "G:\\HRMS\\HRIS_R62\\Models\\LeaveRecord.cs",
+              "RelativeToolTip": "HRIS_R62\\Models\\LeaveRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T03:53:40.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "G:\\HRMS\\HRIS_R62\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "HRIS_R62\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "G:\\HRMS\\HRIS_R62\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "HRIS_R62\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T04:29:55.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250603195346_sp_InsertLeaveEncashment_EncashmentRate.Designer.cs",
+              "DocumentMoniker": "G:\\HRMS\\HRIS_R62\\Migrations\\20250603195346_sp_InsertLeaveEncashment_EncashmentRate.Designer.cs",
+              "RelativeDocumentMoniker": "HRIS_R62\\Migrations\\20250603195346_sp_InsertLeaveEncashment_EncashmentRate.Designer.cs",
+              "ToolTip": "G:\\HRMS\\HRIS_R62\\Migrations\\20250603195346_sp_InsertLeaveEncashment_EncashmentRate.Designer.cs",
+              "RelativeToolTip": "HRIS_R62\\Migrations\\20250603195346_sp_InsertLeaveEncashment_EncashmentRate.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T04:29:55.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250603195346_sp_InsertLeaveEncashment_EncashmentRate.cs",
+              "DocumentMoniker": "G:\\HRMS\\HRIS_R62\\Migrations\\20250603195346_sp_InsertLeaveEncashment_EncashmentRate.cs",
+              "RelativeDocumentMoniker": "HRIS_R62\\Migrations\\20250603195346_sp_InsertLeaveEncashment_EncashmentRate.cs",
+              "ToolTip": "G:\\HRMS\\HRIS_R62\\Migrations\\20250603195346_sp_InsertLeaveEncashment_EncashmentRate.cs",
+              "RelativeToolTip": "HRIS_R62\\Migrations\\20250603195346_sp_InsertLeaveEncashment_EncashmentRate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T04:29:55.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250603180420_sp_InsertLeaveRecords.Designer.cs",
+              "DocumentMoniker": "G:\\HRMS\\HRIS_R62\\Migrations\\20250603180420_sp_InsertLeaveRecords.Designer.cs",
+              "RelativeDocumentMoniker": "HRIS_R62\\Migrations\\20250603180420_sp_InsertLeaveRecords.Designer.cs",
+              "ToolTip": "G:\\HRMS\\HRIS_R62\\Migrations\\20250603180420_sp_InsertLeaveRecords.Designer.cs",
+              "RelativeToolTip": "HRIS_R62\\Migrations\\20250603180420_sp_InsertLeaveRecords.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T04:29:54.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20250603180420_sp_InsertLeaveRecords.cs",
+              "DocumentMoniker": "G:\\HRMS\\HRIS_R62\\Migrations\\20250603180420_sp_InsertLeaveRecords.cs",
+              "RelativeDocumentMoniker": "HRIS_R62\\Migrations\\20250603180420_sp_InsertLeaveRecords.cs",
+              "ToolTip": "G:\\HRMS\\HRIS_R62\\Migrations\\20250603180420_sp_InsertLeaveRecords.cs",
+              "RelativeToolTip": "HRIS_R62\\Migrations\\20250603180420_sp_InsertLeaveRecords.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T04:29:54.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20250603052415_sp_InsertLeaveApprovals.Designer.cs",
+              "DocumentMoniker": "G:\\HRMS\\HRIS_R62\\Migrations\\20250603052415_sp_InsertLeaveApprovals.Designer.cs",
+              "RelativeDocumentMoniker": "HRIS_R62\\Migrations\\20250603052415_sp_InsertLeaveApprovals.Designer.cs",
+              "ToolTip": "G:\\HRMS\\HRIS_R62\\Migrations\\20250603052415_sp_InsertLeaveApprovals.Designer.cs",
+              "RelativeToolTip": "HRIS_R62\\Migrations\\20250603052415_sp_InsertLeaveApprovals.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T04:29:54.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250603052415_sp_InsertLeaveApprovals.cs",
+              "DocumentMoniker": "G:\\HRMS\\HRIS_R62\\Migrations\\20250603052415_sp_InsertLeaveApprovals.cs",
+              "RelativeDocumentMoniker": "HRIS_R62\\Migrations\\20250603052415_sp_InsertLeaveApprovals.cs",
+              "ToolTip": "G:\\HRMS\\HRIS_R62\\Migrations\\20250603052415_sp_InsertLeaveApprovals.cs",
+              "RelativeToolTip": "HRIS_R62\\Migrations\\20250603052415_sp_InsertLeaveApprovals.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T04:29:54.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20250603030927_sp_InsertMaternityConfiguration.Designer.cs",
+              "DocumentMoniker": "G:\\HRMS\\HRIS_R62\\Migrations\\20250603030927_sp_InsertMaternityConfiguration.Designer.cs",
+              "RelativeDocumentMoniker": "HRIS_R62\\Migrations\\20250603030927_sp_InsertMaternityConfiguration.Designer.cs",
+              "ToolTip": "G:\\HRMS\\HRIS_R62\\Migrations\\20250603030927_sp_InsertMaternityConfiguration.Designer.cs",
+              "RelativeToolTip": "HRIS_R62\\Migrations\\20250603030927_sp_InsertMaternityConfiguration.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T04:29:53.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20250603030927_sp_InsertMaternityConfiguration.cs",
+              "DocumentMoniker": "G:\\HRMS\\HRIS_R62\\Migrations\\20250603030927_sp_InsertMaternityConfiguration.cs",
+              "RelativeDocumentMoniker": "HRIS_R62\\Migrations\\20250603030927_sp_InsertMaternityConfiguration.cs",
+              "ToolTip": "G:\\HRMS\\HRIS_R62\\Migrations\\20250603030927_sp_InsertMaternityConfiguration.cs",
+              "RelativeToolTip": "HRIS_R62\\Migrations\\20250603030927_sp_InsertMaternityConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T04:29:53.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20250602194310_sp_InsertMaternitybill.Designer.cs",
+              "DocumentMoniker": "G:\\HRMS\\HRIS_R62\\Migrations\\20250602194310_sp_InsertMaternitybill.Designer.cs",
+              "RelativeDocumentMoniker": "HRIS_R62\\Migrations\\20250602194310_sp_InsertMaternitybill.Designer.cs",
+              "ToolTip": "G:\\HRMS\\HRIS_R62\\Migrations\\20250602194310_sp_InsertMaternitybill.Designer.cs",
+              "RelativeToolTip": "HRIS_R62\\Migrations\\20250602194310_sp_InsertMaternitybill.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T04:29:53.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20250602194310_sp_InsertMaternitybill.cs",
+              "DocumentMoniker": "G:\\HRMS\\HRIS_R62\\Migrations\\20250602194310_sp_InsertMaternitybill.cs",
+              "RelativeDocumentMoniker": "HRIS_R62\\Migrations\\20250602194310_sp_InsertMaternitybill.cs",
+              "ToolTip": "G:\\HRMS\\HRIS_R62\\Migrations\\20250602194310_sp_InsertMaternitybill.cs",
+              "RelativeToolTip": "HRIS_R62\\Migrations\\20250602194310_sp_InsertMaternitybill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T04:29:53.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250527122148_ScriptNkB.Designer.cs",
+              "DocumentMoniker": "G:\\HRMS\\HRIS_R62\\Migrations\\20250527122148_ScriptNkB.Designer.cs",
+              "RelativeDocumentMoniker": "HRIS_R62\\Migrations\\20250527122148_ScriptNkB.Designer.cs",
+              "ToolTip": "G:\\HRMS\\HRIS_R62\\Migrations\\20250527122148_ScriptNkB.Designer.cs",
+              "RelativeToolTip": "HRIS_R62\\Migrations\\20250527122148_ScriptNkB.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T04:29:53.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20250527122148_ScriptNkB.cs",
+              "DocumentMoniker": "G:\\HRMS\\HRIS_R62\\Migrations\\20250527122148_ScriptNkB.cs",
+              "RelativeDocumentMoniker": "HRIS_R62\\Migrations\\20250527122148_ScriptNkB.cs",
+              "ToolTip": "G:\\HRMS\\HRIS_R62\\Migrations\\20250527122148_ScriptNkB.cs",
+              "RelativeToolTip": "HRIS_R62\\Migrations\\20250527122148_ScriptNkB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T04:29:52.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\HRMS\\HRIS_R62\\Program.cs",
+              "RelativeDocumentMoniker": "HRIS_R62\\Program.cs",
+              "ToolTip": "G:\\HRMS\\HRIS_R62\\Program.cs",
+              "RelativeToolTip": "HRIS_R62\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA+wC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T18:28:00.384Z"
             }
           ]
         }

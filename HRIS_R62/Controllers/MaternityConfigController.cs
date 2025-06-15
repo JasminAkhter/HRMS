@@ -30,13 +30,13 @@ namespace HRIS_R62.Controllers
             return Ok(result);
         }
 
-        [HttpPost]
+        [HttpPost("Create")]
         public async Task<IActionResult> Create([FromBody] MaternityConfiguration entity)
         {
             var result = await _context.Database.ExecuteSqlRawAsync(
                 "Exec sp_InsertMaternityConfiguration @p0, @p1, @p2, @p3, @p4,  @p5, @p6, @p7,  @p8", entity.MaternityConfigurationID, entity.JoiningDate, entity.IsEligible, entity.LastWithdrawalDate, entity.InstallmentType, entity.NextWithdrawableTime, entity.CurrentWithdrawalDate,  entity.Status, entity.EmployeeID
                 );
-            return Ok("Data Inserted Successfully!!");
+            return Ok(entity);
         }
 
 

@@ -8190,11 +8190,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\29_Merging_HRIS_R62\\HRIS_R62\\HRIS_R62.csproj",
+      "projectUniqueName": "G:\\HRMS\\HRIS_R62\\HRIS_R62.csproj",
       "projectName": "HRIS_R62",
-      "projectPath": "G:\\29_Merging_HRIS_R62\\HRIS_R62\\HRIS_R62.csproj",
+      "projectPath": "G:\\HRMS\\HRIS_R62\\HRIS_R62.csproj",
       "packagesPath": "C:\\Users\\mdsha\\.nuget\\packages\\",
-      "outputPath": "G:\\29_Merging_HRIS_R62\\HRIS_R62\\obj\\",
+      "outputPath": "G:\\HRMS\\HRIS_R62\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -30,61 +30,68 @@ namespace HRIS_R62.Controllers
             return Ok(result);
         }
 
-        [HttpPost]
+        [HttpPost("Create")]
         public async Task<IActionResult> Create([FromBody] LeaveEncashment entity)
         {
-            // Call stored procedure for LeaveEncashments
-            await _context.Database.ExecuteSqlRawAsync(
-                "EXEC sp_InsertLeaveEncashment @p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14", entity.LeaveEncashmentID, entity.EncashMonth, entity.EncashYear, entity.BasicSalary, entity.ActualDays, entity.ComputedDays, entity.LeaveEncashAmount, entity.OtherDeductions, entity.ActualEncashAmount, entity.ComputedEncashAmount, entity.LocalAreaClerance, entity.LocalAreaRemarks, entity.ApprovedDate, entity.LastMonthWorkingDays, entity.EmployeeID
-             );
-            foreach (var encashmentRate in entity.LeaveEncashmentRates)
+            using var transaction = await _context.Database.BeginTransactionAsync();
+            try
             {
-                await _context.Database.ExecuteSqlRawAsync(
-                    "EXEC sp_InsertLeaveEncashmentRates @p0, @p1, @p2, @p3",
-                    encashmentRate.LeaveEncashmentRateID,
-                    encashmentRate.ToGrossSalary,
-                    encashmentRate.RateInPercent,
-                    entity.LeaveEncashmentID
-                );
-
+                var result = await _context.Database.ExecuteSqlRawAsync(
+                    "EXEC sp_InsertLeaveEncashment @p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14", entity.LeaveEncashmentID, entity.EncashMonth, entity.EncashYear, entity.BasicSalary, entity.ActualDays, entity.ComputedDays, entity.LeaveEncashAmount, entity.OtherDeductions, entity.ActualEncashAmount, entity.ComputedEncashAmount, entity.LocalAreaClerance, entity.LocalAreaRemarks, entity.ApprovedDate, entity.LastMonthWorkingDays, entity.EmployeeID
+                 );
+                foreach (var encashmentRate in entity.LeaveEncashmentRates)
+                {
+                    await _context.Database.ExecuteSqlRawAsync(
+                        "EXEC sp_InsertLeaveEncashmentRates @p0, @p1, @p2, @p3",
+                        encashmentRate.LeaveEncashmentRateID,
+                        encashmentRate.ToGrossSalary,
+                        encashmentRate.RateInPercent,
+                        entity.LeaveEncashmentID
+                    );
+                }
+                await transaction.CommitAsync();
+                return Ok(result);
             }
-            return Ok("Data Saved Successfully!!");
-
+            catch (Exception ex)
+            {
+                await transaction.RollbackAsync();
+                return BadRequest($"Error: {ex.Message}");
+            }
         }
-                //public async Task<IActionResult> Create([FromBody] LeaveEncashment entity)
-                //{
-                //    LeaveEncashment leaveEncashment = new LeaveEncashment();
-                //    leaveEncashment.LeaveEncashmentID = entity.LeaveEncashmentID;
-                //    leaveEncashment.EncashMonth = entity.EncashMonth;
-                //    leaveEncashment.EncashYear = entity.EncashYear;
-                //    leaveEncashment.BasicSalary = entity.BasicSalary;
-                //    leaveEncashment.ActualDays = entity.ActualDays;
-                //    leaveEncashment.ComputedDays = entity.ComputedDays;
-                //    leaveEncashment.LeaveEncashAmount = entity.LeaveEncashAmount;
-                //    leaveEncashment.OtherDeductions = entity.OtherDeductions;
-                //    leaveEncashment.ActualEncashAmount = entity.ActualEncashAmount;
-                //    leaveEncashment.ComputedEncashAmount = entity.ComputedEncashAmount;
-                //    leaveEncashment.LocalAreaClerance = entity.LocalAreaClerance;
-                //    leaveEncashment.LocalAreaRemarks = entity.LocalAreaRemarks;
-                //    leaveEncashment.ApprovedDate = entity.ApprovedDate;
-                //    leaveEncashment.LastMonthWorkingDays = entity.LastMonthWorkingDays;
-                //    leaveEncashment.EmployeeID = entity.EmployeeID;
-                //    await _context.LeaveEncashments.AddAsync(leaveEncashment);
-                //    foreach(var encashmentRate in entity.LeaveEncashmentRates)
-                //    {
-                //        LeaveEncashmentRate leaveEncashmentRate = new LeaveEncashmentRate();
-                //        leaveEncashmentRate.LeaveEncashmentRateID = encashmentRate.LeaveEncashmentRateID;
-                //        leaveEncashmentRate.ToGrossSalary = encashmentRate.ToGrossSalary;
-                //        leaveEncashmentRate.RateInPercent = encashmentRate.RateInPercent;
-                //        leaveEncashmentRate.LeaveEncashmentID = leaveEncashment.LeaveEncashmentID;
-                //        await _context.LeaveEncashmentRates.AddAsync(leaveEncashmentRate);
-                //    }
-                //    await _context.SaveChangesAsync();
+        //public async Task<IActionResult> Create([FromBody] LeaveEncashment entity)
+        //{
+        //    LeaveEncashment leaveEncashment = new LeaveEncashment();
+        //    leaveEncashment.LeaveEncashmentID = entity.LeaveEncashmentID;
+        //    leaveEncashment.EncashMonth = entity.EncashMonth;
+        //    leaveEncashment.EncashYear = entity.EncashYear;
+        //    leaveEncashment.BasicSalary = entity.BasicSalary;
+        //    leaveEncashment.ActualDays = entity.ActualDays;
+        //    leaveEncashment.ComputedDays = entity.ComputedDays;
+        //    leaveEncashment.LeaveEncashAmount = entity.LeaveEncashAmount;
+        //    leaveEncashment.OtherDeductions = entity.OtherDeductions;
+        //    leaveEncashment.ActualEncashAmount = entity.ActualEncashAmount;
+        //    leaveEncashment.ComputedEncashAmount = entity.ComputedEncashAmount;
+        //    leaveEncashment.LocalAreaClerance = entity.LocalAreaClerance;
+        //    leaveEncashment.LocalAreaRemarks = entity.LocalAreaRemarks;
+        //    leaveEncashment.ApprovedDate = entity.ApprovedDate;
+        //    leaveEncashment.LastMonthWorkingDays = entity.LastMonthWorkingDays;
+        //    leaveEncashment.EmployeeID = entity.EmployeeID;
+        //    await _context.LeaveEncashments.AddAsync(leaveEncashment);
+        //    foreach(var encashmentRate in entity.LeaveEncashmentRates)
+        //    {
+        //        LeaveEncashmentRate leaveEncashmentRate = new LeaveEncashmentRate();
+        //        leaveEncashmentRate.LeaveEncashmentRateID = encashmentRate.LeaveEncashmentRateID;
+        //        leaveEncashmentRate.ToGrossSalary = encashmentRate.ToGrossSalary;
+        //        leaveEncashmentRate.RateInPercent = encashmentRate.RateInPercent;
+        //        leaveEncashmentRate.LeaveEncashmentID = leaveEncashment.LeaveEncashmentID;
+        //        await _context.LeaveEncashmentRates.AddAsync(leaveEncashmentRate);
+        //    }
+        //    await _context.SaveChangesAsync();
 
-                //    return Ok("Saved Successfully.");
-                //}
+        //    return Ok("Saved Successfully.");
+        //}
 
-                [HttpPut("{id}")]
+        [HttpPut("{id}")]
         public async Task<IActionResult> Update(string id, [FromBody] LeaveEncashment entity)
         {
             if (entity == null || id != entity.LeaveEncashmentID)
