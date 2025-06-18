@@ -61,7 +61,7 @@ namespace HRIS_R62.Controllers
         //    return Ok(entity);
         //}
 
-        [HttpPut("{id}")]
+        [HttpPut("Update/{id}")]
         public async Task<IActionResult> Update(string id, [FromBody] MaternityConfiguration entity)
         {
             if (entity == null || id != entity.MaternityConfigurationID)
@@ -90,7 +90,7 @@ namespace HRIS_R62.Controllers
             _context.MaternityConfigurations.Update(existingConfig);
             await _context.SaveChangesAsync();
 
-            return Ok ("Updated Successfully");
+            return Ok (existingConfig);
         }
 
     }

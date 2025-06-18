@@ -81,7 +81,7 @@ namespace HRIS_R62.Controllers
 
         #endregion
 
-        [HttpPut("{id}")]
+        [HttpPut("Update/{id}")]
         public async Task<IActionResult> Update(string id, [FromBody] MaternityBill entity)
         {
             if (entity == null || id != entity.MaternityBillID)
@@ -122,7 +122,7 @@ namespace HRIS_R62.Controllers
             _context.MaternityBills.Update(existingBill);
             await _context.SaveChangesAsync();
 
-            return Ok("Updated Successfully");
+            return Ok(existingBill);
         }
 
     }

@@ -68,7 +68,7 @@ namespace HRIS_R62.Controllers
         //    return Ok(entity);
         //}
 
-        [HttpPut("{id}")]
+        [HttpPut("Update/{id}")]
         public async Task<IActionResult> Update(string id, [FromBody] LeaveApproval entity)
         {
             if (entity == null || id != entity.LeaveApprovalID)
@@ -101,7 +101,7 @@ namespace HRIS_R62.Controllers
             _context.LeaveApprovals.Update(existingLeave);
             await _context.SaveChangesAsync();
 
-            return Ok("Updated Successfully");
+            return Ok(existingLeave);
         }
 
     }

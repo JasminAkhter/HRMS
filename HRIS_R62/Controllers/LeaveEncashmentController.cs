@@ -91,7 +91,7 @@ namespace HRIS_R62.Controllers
         //    return Ok("Saved Successfully.");
         //}
 
-        [HttpPut("{id}")]
+        [HttpPut("Update/{id}")]
         public async Task<IActionResult> Update(string id, [FromBody] LeaveEncashment entity)
         {
             if (entity == null || id != entity.LeaveEncashmentID)
@@ -140,7 +140,7 @@ namespace HRIS_R62.Controllers
             _context.LeaveEncashments.Update(existingEncashment);
             await _context.SaveChangesAsync();
 
-            return Ok("Updated Successfully.");
+            return Ok(existingEncashment);
         }
 
     }
